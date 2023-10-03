@@ -1,0 +1,63 @@
+/* Bordes de todo el contenido */
+header,nav,div,article,aside,section,footer{
+    border-color: rgba(128, 128, 128, 0.275); /*Cambia el color del borde */
+    border-width: 4px; /*Cambia el grosor del borde*/
+    border-style: solid; /*Cambia el estilo del borde*/
+    border-radius: .5em; /*Cambia lo redondeado de las esquinas del borde*/
+}
+/* Fin Bordes de todo el contenido */
+
+/* Estilo de header */
+header{
+    background-color: rgb(217, 253, 162); /*Cambia el fondo*/
+    height: 250px; /*Cambia lo largo*/
+}
+/* Fin Estilo de header */
+
+/* Estilo de nav */
+nav{
+    background-color: rgb(253, 253, 162); /*Cambia el fondo*/
+    height: 140px; /*Cambia el largo*/
+    margin-top: 3%; /*Pone un margen en la parte de arriba*/
+    margin-left: 1%; /*Pone un margen en la parte izquierda*/
+    width: 95%; /*Cambia el ancho*/
+}
+/* Fin Estilo de nav */
+
+/* Contenedor div */
+div{
+    border-style: none; /*Quita el borde del contenedor*/
+    display: flex; /*Pone el espacio como flexible*/
+    margin-top: 1%; /*Pone un margen en la parte de arriba*/
+}
+ /* Fin Contenedor div */
+
+/* Estilo de los article */
+article{
+    background-color: rgb(253, 253, 162);/*Cambia el color de fondo*/
+    height: 130px;/*Cambia lo largo*/
+    margin: 1%;/*Pone un margen al rededor*/
+    margin-left: 3%;/*Pone un margen a la izquierda*/
+    margin-right: 15%;/*Pone un margen a la derecha*/
+    margin-top: 8.5%;/*Pone un margen en la parte de arriba*/
+}
+/* Fin Estilo de los article */
+
+/* Estilo de aside y section */
+aside, section{
+    background-color: rgb(217, 253, 162);/*Cambia el color de fondo*/
+    height: 500px;/*Cambia la altura*/
+    width: 50%;/*Cambia el ancho*/
+    margin-left: 1%;/*Pone un margen a la izquierda*/
+    margin-top: 1.5%;/*Pone un margen en la parte de arriba*/
+    margin-right: 1%;/*Pone un margen a la derecha*/
+}
+/* Fin Estilo de aside y section */
+
+/* Estilo de footer */
+footer{
+    background-color: rgb(217, 253, 162);/*Cambia el color de fondo*/
+    height: 150px;/*Cambia la altura*/
+    margin-top: 3.5%;/*Pone un margen en la parte de arriba*/
+}
+/* Fin Estilo de footer */
