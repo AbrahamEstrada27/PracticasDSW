@@ -1,0 +1,44 @@
+header{
+    background: #7fbc24;
+    height: 90px;
+    margin-bottom: 2%;
+}
+
+nav{
+    background: #7fbc24;
+    height: 80px;
+    margin-bottom: 2%;
+}
+
+section{
+    display: flex;
+    border-width: 10px;
+    border-color: rgba(128, 128, 128, 0.275);
+    border-width: 3.5px;
+    border-style: solid;
+    margin-bottom: 2.5%;
+}
+
+aside{
+    width: 20%;
+    margin: 1%;
+    height: 600px;
+    background-color: rgb(103, 177, 190);
+}
+
+article{
+
+    width: 60%;
+    margin: 1%;
+    height: 600px;
+    background-color: yellow;
+
+ 
+}
+
+
+footer{
+    background-color: plum;
+    height: 100px;
+}
+
