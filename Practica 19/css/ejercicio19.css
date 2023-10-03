@@ -1,0 +1,23 @@
+/* section p:nth-last-child(2n){
+    background-color: green;
+}
+
+section p:nth-child(2n){
+    background-color: blue;
+}
+
+#medio{
+
+    width: 60vw;
+    margin: 1vw;
+    height: 600px;
+    background-color: yellow;
+ }
+
+ */
+
+ *, body, table{
+    font-size: 1.1em;
+ }
+
+
