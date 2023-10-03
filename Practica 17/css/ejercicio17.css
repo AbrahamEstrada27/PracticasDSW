@@ -1,0 +1,44 @@
+#cabeza{
+    background: #7fbc24;
+    height: 90px;
+    margin-bottom: 2%;
+}
+
+#menu{
+    background: #7fbc24;
+    height: 80px;
+    margin-bottom: 2%;
+}
+
+#cont{
+    display: flex;
+    border-width: 10px;
+    border-color: rgba(128, 128, 128, 0.275);
+    border-width: 3.5px;
+    border-style: solid;
+    margin-bottom: 2.5%;
+}
+
+.lados{
+    width: 20%;
+    margin: 1%;
+    height: 600px;
+    background-color: rgb(103, 177, 190);
+}
+
+#medio{
+
+    width: 60%;
+    margin: 1%;
+    height: 600px;
+    background-color: yellow;
+
+ 
+}
+
+
+#pie{
+    background-color: plum;
+    height: 100px;
+}
+
