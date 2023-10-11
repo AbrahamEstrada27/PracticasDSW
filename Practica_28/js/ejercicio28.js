@@ -1,3 +1,5 @@
+// <!-- MARIO ABRAHAM ESTRADA GALLEGOS -->
+
 var peso = parseInt(prompt("Escriba su peso:"));
 var opcion = parseInt(prompt("Escriba un numero  (1 o 2):"));
 var pesoTierra = 9.807;
