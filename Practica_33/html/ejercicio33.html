@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="../css/ejercicio33.css">
+    <title>DISNEY</title>
+</head>
+<body>
+    <header>DISNEY QUIZ</header>
+    <h1>¿Qué pelicula de Disney es?</h1>
+
+    <!-- Pantalla inicial -->
+    <!-- Esta es la pantalla en donde se despliega la pantalla inicial -->
+    <div id="pantalla-inicial">
+        <p>¿A qué pelicula de Disney pertenece?</p>
+        <img src="../img/princess.webp" alt="" height="200px"><br>
+        <button class="btn" onclick="comenzarJuego()">JUGAR</button><br><br>
+        <a class="btn" href="../../Practica_32/html/7maravillas.html">IR A OTRO JUEGO</a>
+    </div>
+
+    <!-- Pantalla juego -->
+    <!-- Esta es la pantalla en donde se despligan las opciones y la imagen para empezar a jugar -->
+    <div class="pantalla-juego" id="pantalla-juego">
+        <img src="../img/cenicienta.svg" alt="" id="imgPeliculas" height="350px">
+        <div class="opciones">
+            <div class="opcion" id="op0" onclick="comprobarRespuesta(0)">
+                <div class="letra" id="l0">A</div>
+                <div class="nombre" id="n0">OPCION A</div>
+            </div>
+            <div class="opcion" id="op1" onclick="comprobarRespuesta(1)">
+                <div class="letra" id="l1">B</div>
+                <div class="nombre" id="n1">OPCION B</div>
+            </div>
+            <div class="opcion" id="op2" onclick="comprobarRespuesta(2)">
+                <div class="letra" id="l2">C</div>
+                <div class="nombre" id="n2">OPCION C</div>
+            </div>
+            <div class="opcion" id="op3" onclick="comprobarRespuesta(3)">
+                <div class="letra" id="l3">D</div>
+                <div class="nombre" id="n3">OPCION D</div>
+            </div>
+        </div>
+    </div>
+    <!-- Pantalla final -->
+    <!-- En esta pantalla se despliega al finalizar y muestra cuantas preguntas son correctas y 
+        cuales no y hay un boton donde regresa a la pantalla inical -->
+    <div id="pantalla-final">
+        <h2>CORRECTAS: <span id="numCorrectas">3</span></h2>
+        <h2>INCORRECTAS: <span id="numIncorrectas">2</span></h2>
+        <button class="btn" onclick="volverAlInicio()">VOLVER AL INICIO</button>
+    </div>
+
+    <footer>DISNEY QUIZ</footer>
+    
+    <script src="../js/ejercicio33.js"></script>
+</body>
+</html>
