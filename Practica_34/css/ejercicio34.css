@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+*{
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+h1{
+    margin-bottom: 2em;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+input{
+    margin: 1%;
+    border-radius: .2em;
+    width: 10%;
+}
+
+button{
+    border-radius: 1em;
+    padding: 1%;
+    margin-top: 3em;
+    border: transparent;
+}
+
+button:hover{
+    transform: scale(1.5);
+    background-color: greenyellow;
+    border-color: greenyellow;
+    transition: 1.5s;
+    font-weight: 100;
+
+}

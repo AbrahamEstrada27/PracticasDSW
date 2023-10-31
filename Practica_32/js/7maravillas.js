@@ -1,3 +1,4 @@
+// MARIO ABRAHAM ESTRADA GALLEGOS
 // Aqui hace un arreglo que se llama "maravillas" y mete las imagenes .svg
 let maravillas = ["chichen-itza.svg", "coliseo.svg", "cristo-redentor.svg", "machu-picchu.svg", "muralla-china.svg","petra.svg","taj-mahal.svg"];
 //Declara las respuestas correctas a=0 b=1 c=2

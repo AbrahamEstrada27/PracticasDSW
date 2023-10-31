@@ -1,4 +1,5 @@
-// Aqui hace un arreglo que se llama "maravillas" y mete las imagenes .svg
+// MARIO ABRAHAM ESTRADA GALLEGOS
+// Aqui hace un arreglo que se llama "peliculas" y mete las imagenes .svg
 let peliculas = ["cenicienta.svg", "frozen.svg", "repunsel.svg", "mulan.svg", "blanca.svg","tiana.svg","bella.svg","aurora.svg","moana.svg","valiente.svg"];
 //Declara las respuestas correctas a=0 b=1 c=2
 let correcta = [3,0,2,1,2,0,1,3,0,2];
@@ -110,11 +111,4 @@ function volverAlInicio(){
     //En este el display se cambia a block o sea que se bloquea
     document.getElementById("pantalla-inicial").style.display = "block";
     document.getElementById("pantalla-juego").style.display = "none";
-}
-
-function redireccion(){
-    document.getElementById('miBoton').onclick = function() {
-        window.location.href = '../Practica_32/html/7maravillas.html'; // Cambia la URL por la que desees
-    };
-
 }
